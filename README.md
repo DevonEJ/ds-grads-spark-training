@@ -1,5 +1,27 @@
 # ds-grads-spark-training
-Links required to do Spark hands-on session;
+
+## Getting Set Up on Databricks
+1.	Go to https://databricks.com/try-databricks. You can connect to the _Stonehenge guest wifi network.
+2.	Select ‘Get Started’ under the Community Edition.
+3.	Sign-up using your personal email NOT your Lloyds email.
+4.	Complete setup by verifying your email. NB the verification email may be in your spam.
+
+## Demo
+....
+## Exercise
+Following the example queries on the Wine Review Dataset, you can now attempt the following.
+1. Setting up the data
+    - Download the data in the folder titanic-machine-learning-from-disaster.
+    - Log into Databricks: https://community.cloud.databricks.com/login.html
+    - Upload the datasets to Filestore/tables.
+2. Create a new workbook and Import the three csv files creating three spark dataframes.
+3. Work through the following questions using some of the functions we saw in the wine review demo.
+    - Explore the dataframes and datatypes.
+    - Excluding the child passengers (Age < 18) find the the minimum, maximum, and average fares for each passenger class.
+    - Produce a summary with the survival rates for each passenger gender, with survival rate as a %?
+    - BONUS - Produce a summary of the passenger cabins. How will you handle missing values?
+
+## Links required to do Spark hands-on session;
 
 **DataBricks**
 https://community.cloud.databricks.com/
@@ -35,11 +57,3 @@ Group by wine colour and get the average price, and max price for each colour
 Turn points column into a new categorical column called rating - e.g. low-rated, mid-rated, high-rated 
 
 --------------------------------------------------------------------------------------------------------------------------
-
-Give me the maximum, minimum, and average fares for each class, excluding child passengers (Those under 18 years old)?
-Give me a summary of the survival rate for each passenger gender survival rate as a %?
-
-
-
-Bonus points - Pick and execute fill in the missing values for the cabin column? And explain why you have done it in this way?
-
