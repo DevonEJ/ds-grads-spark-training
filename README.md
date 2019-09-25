@@ -13,9 +13,10 @@ Following the example queries on the Wine Review Dataset, you can now attempt th
 1. Setting up the data
     - Download the data in the folder titanic-machine-learning-from-disaster.
     - Log into Databricks: https://community.cloud.databricks.com/login.html
-    - Upload the datasets to Filestore/tables.
-2. Create a new workbook and Import the three csv files creating three spark dataframes.
-3. Work through the following questions using some of the functions we saw in the wine review demo.
+    - Upload the datasets to DBFS data source under the folder: Filestore/tables.
+2. Return to the home page and create a new workbook. 
+3. Import the three csv files creating three spark dataframes.
+4. Work through the following questions using some of the functions we saw in the wine review demo.
     - Explore the dataframes and datatypes.
     - Excluding the child passengers (Age < 18) find the the minimum, maximum, and average fares for each passenger class.
     - Produce a summary with the survival rates for each passenger gender, with survival rate as a %?
@@ -25,6 +26,7 @@ Following the example queries on the Wine Review Dataset, you can now attempt th
 
 **DataBricks**
 https://community.cloud.databricks.com/
+https://docs.databricks.com/user-guide/notebooks/notebook-use.html
 
 **PySpark cheatsheet**
 https://www.datacamp.com/community/blog/pyspark-sql-cheat-sheet
