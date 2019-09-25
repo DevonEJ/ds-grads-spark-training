@@ -37,6 +37,8 @@ https://www.kaggle.com/c/titanic/data
 **Wine Reviews Dataset**
 https://www.kaggle.com/zynicide/wine-reviews
 
+
+
 ---
 # Notes from last meeting
 
@@ -59,3 +61,5 @@ Group by wine colour and get the average price, and max price for each colour
 Turn points column into a new categorical column called rating - e.g. low-rated, mid-rated, high-rated 
 
 --------------------------------------------------------------------------------------------------------------------------
+schema = t.StructType([t.StructField('Variety',t.StringType()), t.StructField('Colour',t.StringType())])
+vals = [('Chardonnay','White'),('Pinot Noir','White'),('Cabernet Sauvignon','White'),('Riesling','White'),('Merlot','Red'),('Zinfandel','Red'),('Malbec','Red'),('Shiraz','Red'),('Sangiovese','Red')]
